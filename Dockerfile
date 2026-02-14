@@ -32,9 +32,9 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 
-# Create a non-root user
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
+# Create a non-root user (Bun image is Debian-based)
+RUN groupadd --system --gid 1001 nodejs || addgroup --system --gid 1001 nodejs
+RUN useradd --system --uid 1001 --gid nodejs nextjs || adduser --system --uid 1001 -G nodejs nextjs
 
 # Copy necessary files from builder
 COPY --from=builder /app/public ./public
