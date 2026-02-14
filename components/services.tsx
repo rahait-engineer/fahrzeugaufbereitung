@@ -10,42 +10,42 @@ const services = [
     title: "Au\u00DFenaufbereitung",
     description:
       "Professionelle Handw\u00E4sche, Lackpolitur, Felgenreinigung und Versiegelung f\u00FCr einen showroom-w\u00FCrdigen Glanz.",
-    image: "/images/detail-exterior.jpg",
+    image: "/images/detail-exterior.png",
   },
   {
     icon: Sparkles,
     title: "Innenaufbereitung",
     description:
       "Tiefenreinigung von Polstern, Leder, Armaturenbrett und allen Oberfl\u00E4chen f\u00FCr ein makelloses Interieur.",
-    image: "/images/detail-interior.jpg",
+    image: "/images/detail-interior.png",
   },
   {
     icon: ShieldCheck,
     title: "Keramikversiegelung",
     description:
       "Langanhaltender Schutz und brillanter Glanz durch professionelle Keramikbeschichtung.",
-    image: "/images/detail-ceramic.jpg",
+    image: "/images/detail-ceramic.png",
   },
   {
     icon: Wrench,
     title: "Lackkorrektur",
     description:
       "Entfernung von Kratzern, Swirl-Marks und Lackdefekten f\u00FCr ein makelloses Finish.",
-    image: "/images/detail-exterior.jpg",
+    image: "/images/detail-exterior.png",
   },
   {
     icon: Droplets,
     title: "Nano-Versiegelung",
     description:
       "Innovative Nanotechnologie f\u00FCr langanhaltenden Schutz gegen Schmutz, Wasser und UV-Strahlung.",
-    image: "/images/detail-ceramic.jpg",
+    image: "/images/detail-ceramic.png",
   },
   {
     icon: Sun,
     title: "Komplettaufbereitung",
     description:
       "Das Rundum-Sorglos-Paket: Innen- und Au\u00DFenaufbereitung f\u00FCr Ihr Fahrzeug in Premium-Qualit\u00E4t.",
-    image: "/images/hero-car.jpg",
+    image: "/images/hero-car.png",
   },
 ]
 

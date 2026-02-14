@@ -72,7 +72,7 @@ export function About() {
           >
             <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
               <Image
-                src="/images/about.jpg"
+                src="/images/about.png"
                 alt="\u00DCber GlanzWerk - Professionelle Fahrzeugaufbereitung"
                 fill
                 className="object-cover"

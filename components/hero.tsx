@@ -17,7 +17,7 @@ export function Hero() {
         transition={{ duration: 1.8, ease: "easeOut" }}
       >
         <Image
-          src="/images/hero-car.jpg"
+          src="/images/hero-car.png"
           alt="Premium Fahrzeugaufbereitung"
           fill
           className="object-cover"

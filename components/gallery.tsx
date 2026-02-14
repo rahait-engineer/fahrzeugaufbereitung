@@ -6,32 +6,32 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const galleryImages = [
   {
-    src: "/images/hero-car.jpg",
+    src: "/images/hero-car.png",
     alt: "Professionell aufbereiteter schwarzer Sportwagen",
     category: "Au\u00DFen",
   },
   {
-    src: "/images/detail-interior.jpg",
+    src: "/images/detail-interior.png",
     alt: "Makellose Innenraumaufbereitung",
     category: "Innen",
   },
   {
-    src: "/images/detail-exterior.jpg",
+    src: "/images/detail-exterior.png",
     alt: "Lackpolitur und Korrektur",
     category: "Lackpflege",
   },
   {
-    src: "/images/detail-ceramic.jpg",
+    src: "/images/detail-ceramic.png",
     alt: "Keramikversiegelung Anwendung",
     category: "Versiegelung",
   },
   {
-    src: "/images/gallery-1.jpg",
+    src: "/images/gallery-1.png",
     alt: "Fertiges Ergebnis nach Komplettaufbereitung",
     category: "Au\u00DFen",
   },
   {
-    src: "/images/about.jpg",
+    src: "/images/about.png",
     alt: "Unser Team bei der Arbeit",
     category: "Studio",
   },
