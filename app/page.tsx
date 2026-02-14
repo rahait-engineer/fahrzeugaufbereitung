@@ -6,6 +6,7 @@ import { Gallery } from "@/components/gallery"
 import { Testimonials } from "@/components/testimonials"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
+import { Pricing } from "@/components/pricing"
 
 export default function Page() {
   return (
@@ -13,6 +14,7 @@ export default function Page() {
       <Navbar />
       <Hero />
       <Services />
+      <Pricing />
       <About />
       <Gallery />
       <Testimonials />
